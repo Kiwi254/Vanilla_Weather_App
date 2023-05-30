@@ -35,8 +35,7 @@ function displayTemperature(response) {
 }
 
 let apiKey = "667d9f573c8af4c33457be5d561a9148";
-let city = "New York
-"
+let city = "New York";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
 console.log(apiUrl);
 
