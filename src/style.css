@@ -1,35 +1,89 @@
-a {
+a{
     text-decoration: none;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-    color: #878787;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 28px;
-    margin-bottom: 0;
+    background-color: rgb(224, 223, 238);
 }
 
 ul {
-    margin: 0;
     padding: 0;
-    color: #70757a;
+    list-style: none;
+    margin-top: 0px;
 }
 
-li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+#descriptors {
+    margin-right: -50px;
+    color: #220d53;
     font-size: 15px;
-    font-weight: 600;
-    line-height: 19px;
 }
 
 #description {
     text-transform: capitalize;
+    margin-left: -1px;
+}
+
+#temp-icon {
+    font-size: 50px;
+}
+#city {
+    color: #403151;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    padding-bottom: 0;
+}
+#location-icon {
+    font-size: 25px;
+}
+
+#icon {
+  margin-top: -40px;
+  width: 160px;
+  height: 160px;
+  margin-right: 50px;
+}
+
+#row-1 {
+    margin-top: 35px;
+    margin-bottom: -20px;
+}
+
+#wind-icon {
+    margin-right: 2px;
+    margin-left: 3px;
+    font-size: 20px;
+    color:rgb(33, 33, 33);
+}
+
+.open-icon {
+    margin-left: 2px;
+}
+
+.humidity-image {
+    width: 25px;
+    height: 25px;
+}
+
+.source-code {
+  text-align: center;
+}
+
+.open-icon-2 {
+    margin-left: -1px;
+}
+
+.btn {
+    background-color: rgb(70, 60, 182);
+    border-radius: 10px;
+}
+
+.list-data {
+    margin: 3px;
+    padding: 0;
+    font-weight: 600;
+    color: #70757a;
 }
 
 .weather-app-wrapper {
@@ -39,8 +93,8 @@ li {
 
 .weather-app {
     padding: 20px;
-    border: 1px solid #dadde1;
-    border-radius: 5px;
+    border: 2px solid #2b0e47;
+    border-radius: 10px;
 }
 
 .overview {
@@ -54,7 +108,7 @@ li {
 }
 
 .weather-temperature #temperature {
-    color: rgb (33, 33, 33);
+    color: #403151;
     font-size: 64px;
     font-weight: 400;
     line-height: 1;
